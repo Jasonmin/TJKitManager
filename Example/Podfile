@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TJKitManager_Example' do
+  pod 'TJKitManager', :path => '../'
+
+  target 'TJKitManager_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

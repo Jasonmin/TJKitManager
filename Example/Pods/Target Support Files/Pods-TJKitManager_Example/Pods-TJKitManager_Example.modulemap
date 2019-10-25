@@ -1,0 +1,6 @@
+framework module Pods_TJKitManager_Example {
+  umbrella header "Pods-TJKitManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

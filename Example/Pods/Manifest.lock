@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TJKitManager (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TJKitManager (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TJKitManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TJKitManager: a84197b9ee676bb72fc9fc1fd216565144b077a2
+
+PODFILE CHECKSUM: 27cc2d4dc038ed018a8cf7b00771265ae736eb72
+
+COCOAPODS: 1.8.3

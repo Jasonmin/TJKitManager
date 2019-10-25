@@ -1,0 +1,6 @@
+framework module TJKitManager {
+  umbrella header "TJKitManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
